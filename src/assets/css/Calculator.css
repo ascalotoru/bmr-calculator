@@ -1,0 +1,32 @@
+.user-data-form {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-outer {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.flex-outer li,
+.flex-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.sex-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.res-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
